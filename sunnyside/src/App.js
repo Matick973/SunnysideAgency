@@ -37,13 +37,13 @@ function App() {
       </div>
 
       <div className='l3'>
-        <div className='back-image picture-container bottom-align l3-image'>
+        <div className='back-image picture-container bottom-align l3-image spec'>
           <div className='text-hover-picture dark-desaturated-cyan'>
             <h3>Graphic Design</h3>
             <p>Great design makes memorable. We deliver<br/>artwork that underscores your brand message<br/> and captures potential clients' attention.</p>
           </div>
         </div>
-        <div className='back-image picture-container bottom-align l3-image-2'>
+        <div className='back-image picture-container bottom-align l3-image-2 spec'>
           <div className='text-hover-picture dark-blue'>
             <h3>Photography</h3>
             <p>Increase your credibility by getting the most<br/> stunning, high-quality photos that improve your<br/> business image.</p>

@@ -61,6 +61,18 @@
     transition: 0.5s;
 }
 
+.burger-icon{
+    display: none;
+}
+
+.dropdown-menu--active{
+    display: none
+}
+
+.dropdown-menu--inactive{
+    display: none;
+}
+
 /*----------------------------------------*/
 
 .footer-navbar{
@@ -98,4 +110,109 @@
         }
     }
     
+}
+
+/*---------------------------------------------------------------------*/
+
+@media screen and (max-width: 992px){
+
+    .header-items{
+        flex-direction: column;
+    }
+    
+    .navbar{
+        flex-direction: column;
+    }
+
+}
+  
+@media screen and (max-width: 768px){
+
+    .header-items{
+        flex-direction: column;
+        padding: 5% 5%;
+    }
+    
+  
+    .footer-navbar {
+        margin: 15%;
+    }
+
+    .navbar{
+        flex-direction: row;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .nav-link-contact{
+        display: none;
+    }
+
+    .burger-icon{
+        display: contents;
+        cursor: pointer;
+    }
+
+    .contact-burger{
+        text-decoration: none;
+        background-color: #FBD601;
+        border-radius: 35px;
+        margin: 5% auto 10% auto;
+        padding: 5px 35px 5px 35px;
+
+        p{
+            color: black;
+            font-size: 16px;
+            font-family: 'Fraunces', serif;
+            font-weight: 700;
+        }
+    
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+    }
+
+    .nav-link-btn{
+        p{
+            margin-top: 25px;
+            margin-bottom: 15px;   
+        }
+        
+    }
+
+    .dropdown-menu--active{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        height: auto;
+        width: 90%;
+        z-index: 3;
+        a{
+            text-decoration: none;
+            color: hsl(232, 10%, 55%);
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+
+    .dropdown-menu--active::before{
+        content: "";
+        position: absolute;
+        right: 0px;
+        top: -15px;
+        height: 30px;
+        width: 30px;
+        background-color: white;
+        transform: skewY(-45deg);
+        
+    }
+  
 }
