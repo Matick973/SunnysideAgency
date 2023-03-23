@@ -1,0 +1,12 @@
+body {
+  max-width: 1440px;
+  margin: auto;
+  font-family: "Barlow", sans-serif, "Fraunces", serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}/*# sourceMappingURL=index.css.map */

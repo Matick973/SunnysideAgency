@@ -1,0 +1,136 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-image: url("../src/images/desktop/image-header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.back-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picture-container {
+  height: 580px;
+  width: 50%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  font-family: "Fraunces", serif;
+}
+
+.mosaic {
+  height: 450px;
+  width: 50%;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.client-picture {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.client-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emily {
+  background-image: url("../src/images/desktop/image-header.jpg");
+}
+
+.thomas {
+  background-image: url("../src/images/desktop/image-header.jpg");
+}
+
+.jennie {
+  background-image: url("../src/images/desktop/image-header.jpg");
+}
+
+.bottom-align {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-hover-picture {
+  font-family: "Fraunces", serif;
+}
+
+.l1 {
+  display: flex;
+}
+
+.l2 {
+  display: flex;
+}
+
+.l3 {
+  display: flex;
+}
+
+.l4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.l5 {
+  display: flex;
+}
+
+.l1-image {
+  background-image: url("../src/images/desktop/image-transform.jpg");
+}
+
+.l2-image {
+  background-image: url("../src/images/desktop/image-stand-out.jpg");
+}
+
+.l3-image {
+  background-image: url("../src/images/desktop/image-graphic-design.jpg");
+}
+
+.l3-image-2 {
+  background-image: url("../src/images/desktop/image-photography.jpg");
+}
+
+.l5-image-1 {
+  background-image: url("../src/images/desktop/image-gallery-milkbottles.jpg");
+}
+
+.l5-image-2 {
+  background-image: url("../src/images/desktop/image-gallery-orange.jpg");
+}
+
+.l5-image-3 {
+  background-image: url("../src/images/desktop/image-gallery-cone.jpg");
+}
+
+.l5-image-4 {
+  background-image: url("../src/images/desktop/image-gallery-sugarcubes.jpg");
+}
+
+footer {
+  background-color: hsl(168, 34%, 41%);
+  height: 340px;
+}/*# sourceMappingURL=App.css.map */
